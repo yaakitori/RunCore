@@ -1,11 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello App</title>
+    <title>Running</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>hello</h1>
+    <div class="container">
+        <header>
+            <i class="fas fa-pause"></i>
+        </header>
+
+        <main>
+            <div class="main-timer">
+                00:00:00
+            </div>
+
+            <section class="stats">
+                <hr>
+                <div class="stats-row">
+                    <div class="stat-item">
+                        <span class="label">Distance</span>
+                        <span class="value">0.00 km</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="label">Time</span>
+                        <span class="value">00:00:00</span>
+                    </div>
+                </div>
+                <hr>
+                <div class="stats-row">
+                    <div class="stat-item">
+                        <span class="label">Average Pace</span>
+                        <span class="value">00:00 /km</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="label">Instant Pace</span>
+                        <span class="value">00:00 /km</span>
+                    </div>
+                </div>
+                <hr>
+                <div class="stats-row single">
+                    <div class="stat-item">
+                        <span class="label">Calories</span>
+                        <span class="value">0 kcal</span>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer-nav">
+            <a href="#" class="active"><i class="fas fa-home"></i></a>
+            <a href="#"><i class="fas fa-chart-line"></i></a>
+            <a href="#"><i class="fas fa-map-marker-alt"></i></a>
+            <a href="#"><i class="fas fa-user"></i></a>
+        </footer>
+    </div>
 </body>
 </html>
