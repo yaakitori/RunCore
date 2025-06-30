@@ -1,0 +1,99 @@
+body {
+    background-color: #121212;
+    color: #E0E0E0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.summary-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+    font-weight: 600;
+    padding: 20px;
+}
+
+.summary-header h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.summary-header .fa-times {
+    font-size: 24px;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.map-placeholder {
+    height: 300px;
+    background-color: #4DB6AC; /* Teal Green */
+}
+
+.summary-section {
+    padding: 20px;
+}
+
+.summary-section h2 {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.summary-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.summary-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    padding: 15px 0;
+    border-bottom: 1px solid #333333;
+}
+
+.summary-list li:last-child {
+    border-bottom: none;
+}
+
+.summary-list span {
+    color: #A0A0A0;
+}
+
+.summary-list strong {
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+.footer-nav {
+    position: sticky;
+    bottom: 0;
+    background-color: #1F1F1F;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    border-top: 1px solid #444444;
+}
+
+.footer-nav a {
+    color: #A0A0A0;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.footer-nav a.active {
+    color: #FFFFFF;
+}
