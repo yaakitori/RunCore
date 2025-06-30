@@ -13,7 +13,7 @@ const GoalScreen = () => {
 
       <main className="flex-grow">
         <h1 className="text-white font-semibold text-3xl text-center mb-10">
-          What's your goal?
+          What&apos;s your goal?
         </h1>
         <ul className="list-none p-0 m-0">
           <li className="mb-4">
