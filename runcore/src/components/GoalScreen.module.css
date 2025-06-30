@@ -1,0 +1,31 @@
+
+.radioInput {
+    opacity: 0;
+    position: absolute;
+}
+
+.radioCustom {
+    width: 24px;
+    height: 24px;
+    border: 2px solid #555555;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+}
+
+.radioInput:checked + .radioCustom {
+    background-color: #E63946;
+    border-color: #E63946;
+}
+
+.radioInput:checked + .radioCustom::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12px;
+    height: 12px;
+    background-color: #1C1C1E;
+    border-radius: 50%;
+}
