@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set a Goal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="goal.css">
+</head>
+<body>
+    <div class="container">
+        <header class="goal-header">
+            <i class="fas fa-times"></i>
+            <h2>Set a goal</h2>
+            <span></span> <!-- for centering title -->
+        </header>
+
+        <main class="goal-main">
+            <h1>What's your goal?</h1>
+            <ul class="goal-list">
+                <li>
+                    <label for="marathon">
+                        <span>Run a marathon</span>
+                        <input type="radio" id="marathon" name="goal" value="marathon" checked>
+                        <span class="radio-custom"></span>
+                    </label>
+                </li>
+                <li>
+                    <label for="half-marathon">
+                        <span>Run a half marathon</span>
+                        <input type="radio" id="half-marathon" name="goal" value="half-marathon">
+                        <span class="radio-custom"></span>
+                    </label>
+                </li>
+                <li>
+                    <label for="10k">
+                        <span>Run a 10K</span>
+                        <input type="radio" id="10k" name="goal" value="10k">
+                        <span class="radio-custom"></span>
+                    </label>
+                </li>
+                <li>
+                    <label for="5k">
+                        <span>Run a 5K</span>
+                        <input type="radio" id="5k" name="goal" value="5k">
+                        <span class="radio-custom"></span>
+                    </label>
+                </li>
+                <li>
+                    <label for="distance">
+                        <span>Run a specific distance</span>
+                        <input type="radio" id="distance" name="goal" value="distance">
+                        <span class="radio-custom"></span>
+                    </label>
+                </li>
+                <li>
+                    <label for="time">
+                        <span>Run for a specific time</span>
+                        <input type="radio" id="time" name="goal" value="time">
+                        <span class="radio-custom"></span>
+                    </label>
+                </li>
+            </ul>
+        </main>
+
+        <footer class="goal-footer">
+            <button class="btn-next">Next</button>
+        </footer>
+    </div>
+</body>
+</html>
